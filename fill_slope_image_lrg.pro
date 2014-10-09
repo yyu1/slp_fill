@@ -46,7 +46,6 @@ Pro fill_slope_image_lrg, in_file, out_file, xdim, ydim
 		readu, in_lun, in_image
 
 		out_line[*] = in_image[*,win_size]
-		cur_row[*] = out_line[win_size:xdim-win_size-1]
 
 		index = where(out_line eq missing_val, count)
 
