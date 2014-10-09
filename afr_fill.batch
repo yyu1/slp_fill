@@ -1,32 +1,56 @@
 ;Fill South America
 
-in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope.int'
-out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_sam_3.2sec_pctslope_filled_iter2.int'
-xdim = 102375ULL
-ydim = 102375ULL
+;in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope.int'
+;out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter2.int'
+;xdim = 85500ULL
+;ydim = 90000ULL
+;
+;fill_slope_image_lrg, in_file, out_file, xdim, ydim
 
-fill_slope_image_lrg, in_file, out_file, xdim, ydim
+;in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter2.int'
+;out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter3.int'
+;xdim = 85500ULL
+;ydim = 90000ULL
+;
+;fill_slope_image_lrg, in_file, out_file, xdim, ydim
+;spawn, 'rm ' + in_file
+;
+;in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter3.int'
+;out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter4.int'
+;xdim = 85500ULL
+;ydim = 90000ULL
+;
+;fill_slope_image_lrg, in_file, out_file, xdim, ydim
+;spawn, 'rm ' + in_file
+;
+;in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter4.int'
+;out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter5.int'
+;xdim = 85500ULL
+;ydim = 90000ULL
+;
+;fill_slope_image_lrg, in_file, out_file, xdim, ydim
+;spawn, 'rm ' + in_file
 
-in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter2.int'
-out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_sam_3.2sec_pctslope_filled_iter3.int'
-xdim = 102375ULL
-ydim = 102375ULL
+in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter5.int'
+out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter6.int'
+xdim = 85500ULL
+ydim = 90000ULL
 
 fill_slope_image_lrg, in_file, out_file, xdim, ydim
 spawn, 'rm ' + in_file
 
-in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter3.int'
-out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_sam_3.2sec_pctslope_filled_iter4.int'
-xdim = 102375ULL
-ydim = 102375ULL
+in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter6.int'
+out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter7.int'
+xdim = 85500ULL
+ydim = 90000ULL
 
 fill_slope_image_lrg, in_file, out_file, xdim, ydim
 spawn, 'rm ' + in_file
 
-in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter4.int'
-out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_sam_3.2sec_pctslope_filled_iter5.int'
-xdim = 102375ULL
-ydim = 102375ULL
+in_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter7.int'
+out_file = '/Volumes/ALOS_01/global_srtm_3.2sec/srtm_afr_3.2sec_pctslope_filled_iter8.int'
+xdim = 85500ULL
+ydim = 90000ULL
 
 fill_slope_image_lrg, in_file, out_file, xdim, ydim
 spawn, 'rm ' + in_file
